@@ -1,3 +1,6 @@
+-- Ya just played yourself
+-- Dumb script to increment play count of selected track by one and update the last played date.
+
 tell application "Music"
 	
 	set sel to selection of front browser window
