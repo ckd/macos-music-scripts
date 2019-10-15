@@ -5,7 +5,7 @@ tell application "Music"
 	
 	set sel to selection of front browser window
 	if sel is {} then
-		display dialog "Nothing is selected…" buttons {"Quit"} with icon 0
+		display dialog "Nothing is selected." buttons {"Quit"} with icon 0
 		return
 	end if
 	
